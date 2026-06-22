@@ -1,0 +1,59 @@
+#project-name {
+    margin-bottom: 0;
+}
+
+.subtext {
+    margin-top: 0;
+    margin-bottom: 16rem;
+}
+
+.chapter-entry {
+    width: 100%;
+    padding: 0.25em 0em 0.25em 0em;
+    text-decoration: none;
+    color: var(--color-text);
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: start;
+}
+
+.chapter-entry:hover {
+    color: var(--color-text-highlighted);
+}
+
+.chapter-entry .first-name {
+    order: 1;
+    font-style: italic;
+    text-indent: 0;
+}
+
+.chapter-entry .second-name {
+    order: 2;
+    margin-left: auto;
+    text-align: end;
+}
+
+#tab-of-contents {
+    margin-bottom: 2rem;
+}
+
+/* mobile-specific style */
+@media screen and (width < 40em) {
+    .chapter-entry * {
+        flex: 0 0 auto;
+    }
+}
+
+/* desktop-specific style */
+@media screen and (width > 40em) {
+    #tab-of-contents {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .chapter-entry * {
+        margin: 0em 1em 0em 0.5em;
+        flex: 0 0 auto;
+    }
+}

@@ -14,7 +14,7 @@ const chapters = [
      second_name: "Язык и культура",
      link: "chapter4.html"},
     {first_name: "Глава V",
-     second_name: "...",
+     second_name: "Концепт",
      link: "chapter5.html"}
 ]
 
