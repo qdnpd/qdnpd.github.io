@@ -4,7 +4,12 @@
 
 .subtext {
     margin-top: 0;
-    margin-bottom: 16rem;
+}
+
+#image-containter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .chapter-entry {
